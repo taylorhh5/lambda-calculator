@@ -10,3 +10,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container .App{
+  width: 450px;
+  height: 650px;
+
+}
+.container .App .display{
+  background: black;
+  color:white;
+  font-size: 3.5rem;
+  border-radius: 40px;
+  margin: 0rem 2rem;
+  text-align: end;
+}
+.container .App button {
+
+border-radius: 55px;
+width: 4rem;
+height: 4rem;
+font-size: 2rem;
+margin: .5rem;
+}
+.op {
+
+  /* border: 5px solid yellow; */
+  background-color:	#0168BD;
+
+}
+.spec{
+ /* border: 5px solid green */
+}
+.specB{
+  background-color:#0168BD;
+}
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 5px solid black; */
+  width: 18rem;
+  height: 20rem;
+  
+}
+.number-button{
+  background-color:blue;
+}
+
+.opC{
+  /* border: 1px solid orange; */
+  
+  flex-direction: column;
+  width:rem;
+}
+.logo-container{
+
+  padding: 5px;
+}
