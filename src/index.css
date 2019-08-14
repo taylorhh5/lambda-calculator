@@ -17,9 +17,11 @@ code {
 
 }
 .container .App .display{
-  background: darkgray;
-  color:black;
+  background: black;
+  color:white;
   font-size: 2rem;
+  border-radius: 10px;
+  margin: 0rem 5rem;
 }
 .container .App button {
 background-color: blue; 
@@ -30,6 +32,9 @@ font-size: 2rem;
 margin: 1.5rem;
 }
 .op {
-  border: 5px solid forestgreen;
+  
 
+}
+.spec{
+ 
 }

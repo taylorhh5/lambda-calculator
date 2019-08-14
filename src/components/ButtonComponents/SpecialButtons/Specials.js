@@ -8,7 +8,7 @@ const Specials = () => {
   // STEP 2 - add the imported data to state
 
   return (
-    <div>
+    <div className = "spec">
       {specials.map(special=> <SpecialButton text={special}/>)}
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
