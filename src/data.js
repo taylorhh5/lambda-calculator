@@ -33,7 +33,6 @@ export const operators = [
     value: "="
   }
 ];
-console.log (numbers)
 
 
 export const specials = ["C", "+/-", "%"];
