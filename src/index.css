@@ -12,29 +12,57 @@ code {
 }
 
 .container .App{
-  width: 500px;
-  height: 800px;
+  width: 450px;
+  height: 650px;
 
 }
 .container .App .display{
   background: black;
   color:white;
-  font-size: 2rem;
-  border-radius: 10px;
-  margin: 0rem 5rem;
+  font-size: 3.5rem;
+  border-radius: 40px;
+  margin: 0rem 2rem;
+  text-align: end;
 }
 .container .App button {
-background-color: blue; 
-border-radius: 15px;
+
+border-radius: 55px;
 width: 4rem;
 height: 4rem;
 font-size: 2rem;
-margin: 1.5rem;
+margin: .5rem;
 }
 .op {
-  
+
+  /* border: 5px solid yellow; */
+  background-color:	#0168BD;
 
 }
 .spec{
- 
+ /* border: 5px solid green */
+}
+.specB{
+  background-color:#0168BD;
+}
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 5px solid black; */
+  width: 18rem;
+  height: 20rem;
+  
+}
+.number-button{
+  background-color:blue;
+}
+
+.opC{
+  /* border: 1px solid orange; */
+  
+  flex-direction: column;
+  width:rem;
+}
+.logo-container{
+
+  padding: 5px;
 }

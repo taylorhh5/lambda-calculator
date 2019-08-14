@@ -35,10 +35,13 @@ const addOperator = (operator) => {
       <div className="App">
    
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+        <Logo/>
         <Display number={displayValue} />
+        <Specials />
+        <div className="con2">
         <Numbers addNumber={addNumber}/> 
         <Operators addOperator={addOperator}/>
-        <Specials />
+        </div>
       </div>
     </div>
   );

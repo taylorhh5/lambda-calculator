@@ -9,7 +9,7 @@ const Operators = (props) => {
   // STEP 2 - add the imported data to state
   // const [operatorState, setOperatorState] =  {useState}
   return (
-    <div>
+    <div className="opC">
 
       {operators.map(operator=> <OperatorButton operator={operator}
       addOperator={props.addOperator} />)}

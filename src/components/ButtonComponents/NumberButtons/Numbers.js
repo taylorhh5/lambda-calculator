@@ -10,7 +10,7 @@ const Numbers = (props) => {
   // STEP 2 - add the imported data to state
   const [buttonNumbers, setButtonNumbers] = useState(numbers);
   return ( 
-    <div>
+    <div className="digits">
       
     
       {buttonNumbers.map(number =>{
